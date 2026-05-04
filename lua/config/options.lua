@@ -7,7 +7,7 @@ vim.cmd("set relativenumber")
 vim.opt.termguicolors = true
 vim.g.mapleader = ' '
 
--- vim.opt.clipboard = "unnamedplus"
+vim.opt.clipboard = "unnamedplus"
 
 if os.getenv "SSH_CLIENT" ~= nil or os.getenv "SSH_TTY" ~= nil then
     local function my_paste(_)
