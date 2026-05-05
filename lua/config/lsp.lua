@@ -3,8 +3,12 @@
 -- of how the lsp setup works in neovim 0.11+
 --
 vim.lsp.enable('lua_ls')
-vim.lsp.enable('ts_ls')
-vim.lsp.enable('svelte')
+-- vim.lsp.enable('ts_ls')
+vim.lsp.enable('bashls')
+vim.lsp.enable('biome')
+-- vim.lsp.enable('svelte')
+vim.lsp.enable('markdown_oxide')
+vim.lsp.enable('yamlls')
 
 vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(ev)
