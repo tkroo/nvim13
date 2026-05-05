@@ -8,6 +8,7 @@ return {
         win_borders = 'double',
       }
     })
+    require('mini.sessions').setup()
     require('mini.files').setup()
     require('mini.comment').setup()
     -- require('mini.ai').setup()

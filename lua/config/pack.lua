@@ -1,0 +1,10 @@
+--
+-- colorschemes.lua
+-- lsp-config.lua
+-- lualine.lua
+-- mini-nvim.lua
+-- neo-tree.lua
+-- snacks-nvim.lua
+-- telescope.lua
+-- treesitter.lua
+-- whichkey.lua

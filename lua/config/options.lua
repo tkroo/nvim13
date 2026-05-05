@@ -30,6 +30,6 @@ if os.getenv "SSH_CLIENT" ~= nil or os.getenv "SSH_TTY" ~= nil then
     }
 end
 
-vim.keymap.set('n', '<leader>l', ':Lazy<CR>', {desc = "Lazy" }) 
-vim.keymap.set('n', 'H', ':bprevious<CR>', {desc = "buffer previous"})
-vim.keymap.set('n', 'L', ':bnext<CR>', {desc = "buffer next"})
+-- vim.keymap.set('n', '<leader>l', ':Lazy<CR>', {desc = "Lazy" }) 
+-- vim.keymap.set('n', 'H', ':bprevious<CR>', {desc = "buffer previous"})
+-- vim.keymap.set('n', 'L', ':bnext<CR>', {desc = "buffer next"})
